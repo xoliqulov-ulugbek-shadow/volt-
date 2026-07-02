@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Google Sans", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(15, 15, 57);
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head img {
+    border-radius: 100%;
+    width: 110px;
+}
+
+.head h2 {
+    color: white;
+    margin-top: 9px;
+}
+
+.head p {
+    font-family: "Google Sans Code", monospace;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    margin-top: 25px;
+}
+
+h1 {
+    color: white;
+    margin-top: 50px;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+
+.ota-1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 1000px;
+    height: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 25px;
+    border-radius: 30px;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.box i {
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+    font-size: 30px;
+}
+
+.a {
+    position: relative;
+    right: 250px;
+    bottom: 10px;
+}

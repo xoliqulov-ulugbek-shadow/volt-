@@ -1,0 +1,95 @@
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+            font-family: "Google Sans", sans-serif
+        }
+
+        body {
+            background: url(./register.jpg) center/cover no-repeat;
+            height: 95vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ota {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .box {
+            width: 400px;
+            height: 300px;
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(255, 255, 255, .2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            border-radius: 50px;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+        }
+
+        .input input {
+            width: 200px;
+            height: 38px;
+            backdrop-filter: blur(2px);
+            background: none;
+            outline: none;
+            color: #ffffff;
+            border-radius: 20px;
+            margin-top: 20px;
+            border: 1px solid grey;
+            transition: 0.5s;
+            padding-left: 10px;
+        }
+
+        .input input::placeholder {
+            color: white;
+            border: transparent;
+        }
+
+
+        .bnt {
+            width: 110px;
+            height: 38px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        ul a {
+            color: black;
+        }
+
+        b {
+            color: wheat;
+            font-size: 14px;
+            font-weight: 400;
+            transition: 0.3s;
+        }
+
+        b:hover {
+            color: orangered;
+        }
+
+        .b {
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+            margin-top: 20px;
+        }

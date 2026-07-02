@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(15, 15, 57);
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ul1 a {
+    color: white;
+    font-family: "Google Sans Code", monospace;
+    transition: 0.4s;
+    font-size: 17.2px;
+}
+
+.ul1 a:hover {
+    color: aqua;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text h1 {
+    color: white;
+    font-size: 47px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+    color: white;
+    margin-top: 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+.ota-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bnt-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    color: white;
+    background: none;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.mars img {
+    border-radius: 100%;
+    width: 40px;
+}
+
+.s {
+    font-size: 40px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.b {
+    width: 300px;
+    height: 300px;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.b h1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+.k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
